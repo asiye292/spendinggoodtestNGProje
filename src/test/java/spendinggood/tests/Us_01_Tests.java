@@ -1,5 +1,5 @@
 package spendinggood.tests;
-import com.sun.source.tree.AssertTree;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import spendinggood.pages.Us01;
@@ -41,6 +41,11 @@ public class Us_01_Tests {
 
     }
 }
+
+//aaa
+
+
+
 /*
 Kullanici https://spendinggood.com/ URL`ine giris yapar
 Kullanici acilan ekranda Register`a (Kayit ol) tiklar
