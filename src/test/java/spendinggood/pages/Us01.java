@@ -30,7 +30,7 @@ public class Us01 {
     public WebElement signUp;
 
     @FindBy(xpath = "//a[.='Sign Up']")
-    public WebElement gorunur;
+    public WebElement kayitUyariYazisi;
 
 }
 

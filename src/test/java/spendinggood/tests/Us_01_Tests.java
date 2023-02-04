@@ -1,5 +1,4 @@
 package spendinggood.tests;
-
 import com.sun.source.tree.AssertTree;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,7 +18,6 @@ public class Us_01_Tests {
         //Kullanici acilan ekranda Register`a (Kayit ol) tiklar
         us01.registerButon.click();
 
-
         //Kullanici acilan ekrandaki  Username ye tiklar
         //Kullanici Username alanina valid bir isim girer
         us01.username.click();
@@ -34,7 +32,7 @@ public class Us_01_Tests {
 
         us01.signUp.click();
 
-        Assert.assertTrue(us01.gorunur.isDisplayed());
+        Assert.assertTrue(us01.kayitUyariYazisi.isDisplayed());
     }
 
     @Test
