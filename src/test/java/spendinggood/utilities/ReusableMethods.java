@@ -219,5 +219,17 @@ public class ReusableMethods {
         } catch (NoSuchElementException e) {
             Assert.fail("Element not found: " + element);
         }
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].click();", element);
+    }
+
+    public static void scrollIntoViewJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public static void clickByJS(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("arguments[0].click();", element);
     }
 }
